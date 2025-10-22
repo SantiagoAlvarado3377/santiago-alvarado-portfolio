@@ -2,6 +2,23 @@ import type { Project } from "./types"
 
 export const projects: Project[] = [
   {
+    title: "QuantLLM",
+    slug: "quantllm",
+    excerpt: "AI-Driven Multi-Agent Market Analysis Platform",
+    description: `QuantLLM is a multi-agent trading intelligence system that transforms real-time OHLCV data into explainable insights rather than predictions. Built for transparency, it uses agents that interpret RSI, MACD, and ROC indicators, candlestick patterns, trend signals, and custom risk controls.
+
+The system summarizes market conditions with natural-language analysis powered by Gemini AI, helping users understand momentum and volatility without black-box forecasting.
+
+Core features include a multi-agent design for Indicator, Pattern, Trend, and Risk analysis, a real-time OHLCV dashboard with visual signals and CSV export, AI-generated plain-language explanations of technical signals, and synthetic data fallback for offline resilience.
+
+Outcome: Provides transparent, educational analytics for crypto, stocks, and forex traders—bridging quantitative metrics with AI explainability.`,
+    images: ["/quantllm.jpg"],
+    stack: ["TypeScript", "Node.js", "React", "Tailwind CSS", "Alpha Vantage API", "Gemini API"],
+    repoUrl: "https://github.com/SantiagoAlvarado3377/quantllm",
+    category: "AI/ML",
+    lastUpdated: "2025-10-22",
+  },
+  {
     title: "Roomies",
     slug: "roomies",
     excerpt: "Roommate-matching and blog platform for Sacramento State students",
