@@ -14,7 +14,7 @@ const experience = [
     company: "Symbotic",
     role: "Software Engineering Intern",
     location: "Remote",
-    period: "Summer 2024",
+    period: "Summer 2023",
     description:
       "Worked on warehouse automation systems, developing real-time coordination software for robotic systems. Implemented fault-tolerant design patterns and improved system observability.",
     technologies: ["Java", "Microservices", "Kubernetes", "Real-time Systems"],
@@ -22,19 +22,19 @@ const experience = [
   {
     company: "Disney",
     role: "Software Development Intern",
-    location: "Burbank, CA",
-    period: "Summer 2023",
+    location: "Orlando, FL",
+    period: "Summer 2025",
     description:
-      "Contributed to user-facing features for Disney+ platform. Focused on performance optimization and accessibility improvements, impacting millions of users.",
+      "Supported safe daily operation of 12 monorail trains across 7 stations, managing automated power systems and reducing startup time by 15% through improved procedural sequencing. Collaborated with maintenance and control engineers to monitor real-time system diagnostics, identifying and reporting irregularities that improved uptime reliability by ~10%. Designed and implemented data logging scripts (Python) to track operational efficiency and flag anomalies during station power cycles.",
     technologies: ["React", "TypeScript", "Node.js", "AWS"],
   },
   {
     company: "World Relief",
-    role: "Software Developer",
+    role: "IT Intern",
     location: "Sacramento, CA",
-    period: "2022 - 2023",
+    period: "2024 - 2025",
     description:
-      "Built tools for humanitarian work, including case management systems and data visualization dashboards. Emphasized accessibility and reliability for users in challenging conditions.",
+      "Developed an inventory management program that improved tracking efficiency for company assets, reducing manual entry time by 30%. Designed a password-recovery tool to securely regain access to locked systems, cutting downtime for affected employees by 40%. Imaged, wiped, and configured 25+ computers for new and existing employees, ensuring quick and secure onboarding. Troubleshot and resolved 50+ IT support tickets, ranging from hardware malfunctions to software issues, improving overall technical support response.",
     technologies: ["Python", "Django", "PostgreSQL", "React"],
   },
 ]
@@ -42,8 +42,8 @@ const experience = [
 const education = {
   school: "California State University, Sacramento",
   degree: "Bachelor of Science in Computer Science",
-  period: "2021 - Present",
-  gpa: "3.8 / 4.0",
+  period: "2022 - Present",
+  gpa: "3.5 / 4.0",
   relevant: ["Data Structures & Algorithms", "Machine Learning", "Software Engineering", "Database Systems"],
 }
 
